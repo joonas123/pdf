@@ -4,7 +4,7 @@
 	"homepage": "https://github.com/phpgearbox/pdf",
 	"keywords": ["pdf", "docx", "template", "builder", "converter"],
 	"license": "MIT",
-	"autoload":
+"autoload":
 	{
 		"psr-4":
 		{
@@ -13,19 +13,19 @@
 	},
 	"require":
 	{
+		"php": "^7.0",
 		"gears/di": "*",
-		"gears/string": "^0.6.0",
-		"symfony/process": "3.*",
-		"symfony/filesystem": "3.*",
+		"symfony/process": "2.*|3.*",
+		"symfony/filesystem": "2.*|3.*",
 		"jakoch/phantomjs-installer": "1.9.8"
 	},
 	"require-dev":
 	{
 		"codegyre/robo": "*",
-		"phpunit/phpunit": "6.*",
-		"guzzlehttp/guzzle": "6.*",
+		"phpunit/phpunit": "^4.8|^5.6",
+		"guzzlehttp/guzzle": "4.*",
 		"sgh/pdfbox": "dev-master",
-		"google/apiclient": "1.*|2.*",
+		"google/apiclient": "1.*",
 		"symfony/finder": "2.*|3.*"
 	},
 	"scripts":
